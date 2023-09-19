@@ -21,10 +21,10 @@ import {
 
 const Sidebar = () => {
   return (
-    <div className="w-1/4 shadow-2xl h-full bg-[#15132b] text-white p-12">
+    <div className="w-[18%] shadow-2xl h-full bg-[#15132b] text-white p-12">
         <div className="w-full flex items-start justify-start">
       <h1 className="text-2xl mx-5 mb-8">weframetech</h1>
-      <GiHamburgerMenu className="mt-2 text-2xl text-[#7879f1]"/>    
+      {/* <GiHamburgerMenu className="mt-2 text-2xl text-[#7879f1]"/>     */}
         </div>
 
       <ul>
