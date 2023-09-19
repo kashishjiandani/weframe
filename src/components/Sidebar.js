@@ -18,6 +18,7 @@ import {
     GiHamburgerMenu
 } from "react-icons/gi";
 
+
 const Sidebar = () => {
   return (
     <div className="w-1/4 shadow-2xl h-full bg-[#15132b] text-white p-12">
@@ -93,6 +94,25 @@ const Sidebar = () => {
             <p className="block text-[#7879f1] px-4 py-2 ">Settings</p>
           </Link>
         </li>
+        <div class="mt-8 w-56 h-48 relative">
+  <div class="w-56 h-48 bg-gradient-to-b from-blue-500 via-blue-300 to-blue-500 rounded-3xl absolute top-0 left-0"></div>
+  <div class="w-56 h-48 absolute top-0 left-0">
+    <img src="https://c.animaapp.com/AVj2O5BR/img/mask-group@2x.png" class="w-56 h-48" />
+  </div>
+  <div class="w-6 h-8 absolute top-8 left-8">
+    <img src="https://c.animaapp.com/AVj2O5BR/img/vector.svg" class="w-6 h-8" />
+  </div>
+  <div class="w-8 h-4 absolute bottom-4 left-8">
+    <img src="https://c.animaapp.com/AVj2O5BR/img/vector-1.svg" class="w-8 h-4" />
+  </div>
+  <p class="absolute top-20 left-16 text-white text-xl font-bold">
+    <span class="text-white">Increase your </span>
+    <span class="text-white text-md">work with kanban</span>
+  </p>
+</div>
+
+
+
       </ul>
     </div>
   );
